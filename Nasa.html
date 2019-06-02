@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate|Raleway&display=swap" rel="stylesheet">
+    <title>NASA Stuff</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">AstroBay</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Launches </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Nasa.html">NASA<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="test.html">Hubble</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="card-deck">
+        <div class="card text-white bg-dark">
+            <img id="apodImage" src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4>Astronomy Image of the Day</h4>
+                <h5>Title: <span id="apodHeader"></span></h5>
+                <p id="apodDesc" class="card-caption"></p>
+            </div>
+            <div class="card-footer">
+                <a id="apodLink" href=""><small id="apodComment" class="text-muted">Link to HD Image</small></a>
+            </div>
+        </div>
+        <div class="card text-white bg-dark">
+            <img id="epicImage" src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4>Latest DISCOVR Image</h4>
+                <h5>Title: <span id="epicHeader"></span></h5>
+                <p id="epicDesc" class="card-caption"></p>
+            </div>
+            <div class="card-footer">
+                <small id="epicComment" class="text-muted"></small>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="space-footer">
+                <P>Credits: launchlibrary.net, NASA and STScI</P>
+            </div>
+        </div>
+    </footer>
+    <script src="Nasa.js"></script>
+</body>
+
+</html>

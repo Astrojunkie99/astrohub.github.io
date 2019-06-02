@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate|Raleway&display=swap" rel="stylesheet">
+    <title>Astrobay</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Astrobay</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Launches <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Nasa.html">NASA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="test.html">Hubble</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="card-deck">
+        <div class="card text-white bg-dark">
+            <img id="image1" src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4>Next Launch</h4>
+                <h5>Launch Title: <span id="spaceHeader"></span></h5>
+                <p>Launch time (UTC): <span id="launchTime"></span></p>
+                <p id="launchDesc" class="card-caption"></p>
+            </div>
+            <div class="card-footer">
+                <small id="launchComplex1" class="text-muted"></small>
+            </div>
+        </div>
+        <div class="card text-white bg-dark">
+            <img id="image2" src="..." class="card-img-top" alt="...">
+             <div class="card-body">
+                 <h4>Next Launch</h4>
+                 <h5>Launch Title: <span id="spaceHeader2"></span></h5>
+                 <p>Launch time (UTC): <span id="launchTime2"></span></p>
+                 <p id="launchDesc2" class="card-caption"></p>
+             </div>
+            <div class="card-footer">
+                <small id="launchComplex2" class="text-muted"></small>
+            </div>
+        </div>
+        <div class="card text-white bg-dark">
+            <img id="image3" src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4>Next Launch</h4>
+                <h5>Launch Title: <span id="spaceHeader3"></span></h5>
+                <p>Launch time (UTC): <span id="launchTime3"></span></p>
+                <p id="launchDesc3" class="card-caption"></p>
+            </div>
+            <div class="card-footer">
+                <small id="launchComplex3" class="text-muted"></small>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+        <div class="space-footer">
+            <P>Credits: launchlibrary.net, NASA and STScI</P>
+        </div>
+        </div>
+    </footer>
+    
+    <script src="myscripts.js"></script>
+</body>
+</html>
